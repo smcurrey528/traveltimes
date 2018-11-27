@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Nav from './Nav';
+import PNav from './PNav';
 import BottomNav from './BottomNav';
 import './Palermo.css';
 import DropDown from './Dropdown';
@@ -36,7 +36,7 @@ class Palermo extends Component {
     <div class="camera"></div>
     <div class="speaker"></div>
     <div class="screen">
-        <Nav/>
+        <PNav/>
         <div className="benvenuto">
          <p className="bien"> Benvenuto a PALERMO! </p>
          <select className="dropdown">

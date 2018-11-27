@@ -9,7 +9,7 @@
   display: inline-flex;
   position: absolute;
   top: 19%;
-  left: 4%;
+  left: 15%;
 }
 
 .mag {
@@ -23,13 +23,13 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  width: 95%;
+  width: 100%;
 }
 
 .saved {
   position: absolute;
   top: 27%;
-  left: 35%;
+  left: 33%;
   font-weight: 700;
 
 }
@@ -37,7 +37,7 @@
 .graybox {
   background: rgba(140,140,140, .5);
   width: 80%;
-  height: 80%;
+  height: 60%;
   margin-top: 5%;
   margin-left: 10%;
 
@@ -49,8 +49,8 @@
   margin: 10%;
   width: 80%;
   color: white;
-  padding-bottom: 20px;
-  font-size: 15px;
+  padding: 5%;
+  font-size: 25px;
 }
 
 .montreal {
