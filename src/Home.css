@@ -1,0 +1,275 @@
+.globe {
+  position: absolute;
+  top: 8.5%;
+  left: 44%;
+  width: 15%;
+}
+
+.searchBar {
+  display: inline-flex;
+  position: absolute;
+  top: 19%;
+  left: 4%;
+}
+
+.mag {
+  width: 10%;
+  height: 10%;
+}
+
+.where {
+  font-size: 18px;
+  border-bottom: 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 95%;
+}
+
+.saved {
+  position: absolute;
+  top: 27%;
+  left: 35%;
+  font-weight: 700;
+
+}
+
+.graybox {
+  background: rgba(140,140,140, .5);
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+
+}
+
+.textName {
+  text-align: center;
+  margin-left: 10%;
+  margin: 10%;
+  width: 80%;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.montreal {
+  position: absolute;
+  top: 32%;
+  left: 5%;
+  border: 1px solid;
+  width: 90%;
+  height: 15%;
+  font-size: 40px;
+  background-image: url('https://i.imgur.com/mpKFO59.jpg');
+  background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.hong {
+    position: absolute;
+  top: 48%;
+  left: 5%;
+  border: 1px solid;
+  width: 90%;
+  height: 15%;
+  font-size: 40px;
+  background-image: url('https://i.imgur.com/T3iMqU3.jpg');
+ background-repeat: no-repeat;
+ background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.paris {
+    position: absolute;
+  top: 64%;
+  left: 5%;
+  border: 1px solid;
+  width: 90%;
+  height: 15%;
+  font-size: 40px;
+  background-image: url('https://i.imgur.com/CBzbO3U.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.cartagena {
+    position: absolute;
+  top: 80%;
+  left: 5%;
+  border: 1px solid;
+  width: 90%;
+  height: 15%;
+  font-size: 40px;
+  background: url('https://i.imgur.com/Z7MJDmx.jpg')  no-repeat center center fixed;
+  -webkit-background-size: cover;
+   object-fit: contain;
+    color: white;
+
+
+}
+
+
+
+hr {
+  position: absolute;
+  bottom: 30px;
+}
+
+.dotSave {
+  position: absolute;
+  right: 2%;
+  top: 26.5%;
+  width: 8%;
+
+}
+
+.nomad {
+  max-width: 680px !important;
+  max-height: 850px;
+  font-weight: 700;
+}
+
+
+
+
+body {
+  background: black;
+  padding-top: 5%;
+  font-size: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.iphone {
+  position: relative;
+  background-color: whitesmoke;
+  width: 45%;
+  height: 0;
+  padding-top: 95%;
+  margin: 0 auto;
+  border-radius: 3em;
+}
+
+.power {
+  position: absolute;
+  background: whitesmoke;
+  width: 13%;
+  height: .5%;
+  top: -.5%;
+  right: 12%;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+  border: 1px solid;
+}
+
+.lock {
+  position: absolute;
+  background: whitesmoke;
+  width: 1%;
+  height: 5%;
+  top: 12.5%;
+  left: -1%;
+  border: 1px solid;
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
+}
+
+.volume {
+  position: absolute;
+  background: whitesmoke;
+  width: 1%;
+  height: 4%;
+  top: 23%;
+  left: -1%;
+  border: 1px solid;
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
+}
+
+.volume.down{ top: 31%; }
+
+.camera {
+  position: absolute;
+  top: 4%;
+  left: 48.5%;
+  background: black;
+  width: 3%;
+  height: 0;
+  padding-top: 3%;
+  border-radius: 50%;
+}
+
+.speaker {
+  position: absolute;
+  top: 7%;
+  left: 42.5%;
+  background: #3f3f3f;
+  width: 15%;
+  height: 0;
+  padding-top: 3%;
+  border-radius: 1em;
+}
+
+
+
+
+
+.screen {
+  background: white;
+  border: 2px solid;
+
+  width: 90%;
+  height: 75%;
+  position: absolute;
+  top: 12.5%;
+  left: 5%;
+  animation: lighten 5s infinite alternate;
+}
+
+.button {
+  position: absolute;
+  bottom: 2.75%;
+  left: 42.5%;
+  background: white;
+  border: 3px solid gray;
+  width: 15%;
+  height: 0;
+  padding-top: 15%;
+  border-radius: 50%;
+}
+
+
+
+@media screen and (min-width: 28em ) {
+  body{ font-size: 8px; }
+}
+
+@media screen and (min-width: 34em ) {
+  body{ font-size: 10px; }
+}
+
+@media screen and (min-width: 48em ) {
+  body{ font-size: 14px; }
+}
+
+
+
+

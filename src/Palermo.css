@@ -1,0 +1,92 @@
+.benvenuto {
+  position: absolute;
+  top: 10%;
+  border: 1px solid;
+  width: 90%;
+  margin-left: 5%;
+  height: 20%;
+  font-size: 20px;
+  font-weight: 700;
+  background: url('https://i.imgur.com/AecFqB4.jpg')  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  object-fit: contain;
+  color: white;
+  text-align: center;
+}
+
+.bien {
+  position: absolute;
+  top: 19%;
+  left: 12%;
+
+}
+
+.ptrans {
+  position: absolute;
+  top: 30%;
+  border: 1px solid;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.pcomm {
+position: absolute;
+  top: 35%;
+  border: 1px solid;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.pfood {
+position: absolute;
+  top: 40%;
+  border: 1px solid;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.psafety {
+position: absolute;
+  top: 45%;
+  border: 1px solid;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.pbasic {
+position: absolute;
+  top: 50%;
+  border: 1px solid;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.pmoney {
+position: absolute;
+  top: 55%;
+  border: 1px solid;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.pculture {
+position: absolute;
+  top: 60%;
+  border: 1px solid;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.dropdown, option {
+  position: absolute;
+  top: 75%;
+  right: 3%;
+  width: 15%;
+  background-color: white;
+  color: #7CC2CC;
+
+}
