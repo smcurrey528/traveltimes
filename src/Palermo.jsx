@@ -25,13 +25,24 @@ class Palermo extends Component {
         <div className="benvenuto">
          <p className="bien"> Benvenuto a PALERMO! </p>
          </div>
+         <div className="download"> Download </div>
         <div className="ptrans"> Transportation </div>
-        <div className="pcomm"> Communication </div>
+        <img className="bus" src="https://i.imgur.com/vtMcoGR.png"/>
+        <div className="pcomm">
+          <img className="talking" src="https://i.imgur.com/DU0QcKV.png"/>
+        Communication </div>
         <div className="pfood"> Food + Drink</div>
-        <div className="psafety"> Safety + Emergencies </div>
-        <div className="pbasic"> Basic Needs </div>
+        <img className="wine" src="https://i.imgur.com/FWVqTKn.png"/>
+        <div className="psafety">
+          <img className="safety" src="https://i.imgur.com/mJYZ3vj.png"/>
+         Safety + Emergencies </div>
+        <div className="pbasic">
+           <img className="building" src="https://i.imgur.com/X2yvplH.png"/>
+         Basic Needs </div>
         <div className="pmoney"> Money </div>
+          <img className="dinero" src="https://i.imgur.com/yLVRRST.png"/>
         <div className="pculture"> Culture </div>
+        <img className="earth" src="https://i.imgur.com/lRsKDhP.png"/>
         <BottomNav/>
   </div>
      <div class="button">

@@ -10,7 +10,7 @@ class Nav extends Component {
         <React.Fragment>
           <div className="stickynav">
           <p className="title"><Link to='/'>
-
+            Times Travel
           </Link></p>
           <img className="icon" src="https://i.imgur.com/uWpKRox.png"/>
           </div>

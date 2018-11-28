@@ -17,7 +17,11 @@
   margin-top: 0;
   color: white !important;
   text-decoration: none !important;
-  font-size: 120% !important;
+  font-size: 160% !important;
+  position: absolute;
+  left: -12%;
+  top: 30%;
+
 }
 
 .icon {
