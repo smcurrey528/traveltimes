@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import PNav from './PNav';
 import BottomNav from './BottomNav';
 import './Palermo.css';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+
 
 
 
@@ -35,9 +35,9 @@ class Palermo extends Component {
         <div className="pcomm">
           <img className="talking" src="https://i.imgur.com/DU0QcKV.png"/>
         Communication </div>
-        <div className="pfood">
+        <Link to="/food"><div className="pfood">
         <img className="wine" src="https://i.imgur.com/FWVqTKn.png"/>
-          Food + Drink</div>
+          Food + Drink</div> </Link>
         <div className="psafety">
           <img className="safety" src="https://i.imgur.com/mJYZ3vj.png"/>
          Safety + Emergencies </div>

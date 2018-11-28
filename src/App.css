@@ -65,4 +65,14 @@
 
 }
 
+.conversions, .drinks, .commtips, .reltips {
+  position: absolute;
+  top: 7%;
+  width: 100%;
+}
+
+a {
+  text-decoration-style: none !important;
+}
+
 
