@@ -43,11 +43,26 @@
   width: 25px;
   height: 25px;
   padding: 1%;
-  position: absolute;
-  top: 5%;
-  left: 2%;
+  position: relative;
+  top: 20%;
+  left: 8%;
   background-color: white;
   border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+  margin-left: 135px;
+  padding-top: -10%;
+  margin-top: 0;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 160% !important;
+  position: absolute;
+  left: -12%;
+  top: 30%;
+  font-weight: 700;
+
 }
 
 

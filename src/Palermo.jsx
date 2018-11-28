@@ -23,26 +23,33 @@ class Palermo extends Component {
     <div class="screen">
         <PNav/>
         <div className="benvenuto">
-         <p className="bien"> Benvenuto a PALERMO! </p>
+         <img className="bien" src="https://i.imgur.com/2QwBDSH.png" />
          </div>
-         <div className="download"> Download </div>
-        <div className="ptrans"> Transportation </div>
+         <div className="download"> Download
+          <img className="tealbutton" src="https://i.imgur.com/B2sc4KS.png" />
+         </div>
+
+        <div className="ptrans">
         <img className="bus" src="https://i.imgur.com/vtMcoGR.png"/>
+         Transportation </div>
         <div className="pcomm">
           <img className="talking" src="https://i.imgur.com/DU0QcKV.png"/>
         Communication </div>
-        <div className="pfood"> Food + Drink</div>
+        <div className="pfood">
         <img className="wine" src="https://i.imgur.com/FWVqTKn.png"/>
+          Food + Drink</div>
         <div className="psafety">
           <img className="safety" src="https://i.imgur.com/mJYZ3vj.png"/>
          Safety + Emergencies </div>
         <div className="pbasic">
            <img className="building" src="https://i.imgur.com/X2yvplH.png"/>
          Basic Needs </div>
-        <div className="pmoney"> Money </div>
+        <div className="pmoney">
           <img className="dinero" src="https://i.imgur.com/yLVRRST.png"/>
-        <div className="pculture"> Culture </div>
+          Money </div>
+        <div className="pculture">
         <img className="earth" src="https://i.imgur.com/lRsKDhP.png"/>
+          Culture </div>
         <BottomNav/>
   </div>
      <div class="button">

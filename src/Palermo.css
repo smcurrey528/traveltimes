@@ -1,5 +1,5 @@
 .benvenuto {
-  position: absolute;
+/*  position: absolute;
   top: 10%;
   border: 1px solid;
   width: 90%;
@@ -11,75 +11,83 @@
   -webkit-background-size: cover;
   object-fit: contain;
   color: white;
-  text-align: center;
+  text-align: center;*/
 }
 
 .bien {
   position: absolute;
-  top: 19%;
-  left: 12%;
+  top: 9%;
+  width: 90%;
+  left: 5%;
+
 
 }
 
 .ptrans {
   position: absolute;
   top: 35%;
-  border: 1px solid;
-  width: 90%;
+  left: 5%;
+  width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
   display: inline-flex;
+  font-size: 17px;
 }
 
 .pcomm {
 position: absolute;
-  top: 75%;
-  border: 1px solid;
-  width: 90%;
+  top: 42%;
+  left: 5%;
+  width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
+  display: inline-flex;
+  font-size: 17px;
 }
 
 .pfood {
 position: absolute;
-  top: 40%;
-  border: 1px solid;
-  width: 90%;
+  top: 48%;
+  left: 5%;
+  width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
+  display: inline-flex;
+  font-size: 17px;
 }
 .psafety {
 position: absolute;
-  top: 45%;
-  border: 1px solid;
-  width: 90%;
+  top: 54%;
+  left: 6%;
+  width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
+  display: inline-flex;
+  font-size: 17px;
 }
 .pbasic {
 position: absolute;
-  top: 50%;
-  border: 1px solid;
-  width: 90%;
+  top: 61%;
+  left: 5%;
+  width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
+  display: inline-flex;
+  font-size: 17px;
 }
 
 .pmoney {
 position: absolute;
-  top: 55%;
-  border: 1px solid;
-  width: 90%;
+  top: 68%;
+  left: 5%;
+  width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
+  display: inline-flex;
+  font-size: 17px;
 }
 .pculture {
 position: absolute;
-  top: 60%;
-  border: 1px solid;
-  width: 90%;
+  top: 75%;
+  left: 5%;
+  width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
+  display: inline-flex;
+  font-size: 17px;
 }
 
 .dropdown, option {
@@ -103,18 +111,32 @@ position: absolute;
 
 .download {
   position: absolute;
-  top: 33%;
-  right: 5%;
+  top: 32%;
+  right: 0%;
+  font-size: 130%;
+
+  color: gray;
 }
 
 .building, .bus, .talking, .wine, .dinero, .earth{
-  width: 15%;
-  height: 15%;
+  width: 10%;
+  height: 10%;
+  margin-right: 5%;
 }
 
 .safety {
-  width: 10%;
-  height: 10%;
+  width: 8%;
+  height: 8%;
+  margin-right: 8%;
+}
+
+.tealbutton {
+  height: 5%;
+  width: 30%;
+  padding-left: 5%;
+   position: relative;
+  top: 30% !important;
+  right: 0%;
 }
 
 

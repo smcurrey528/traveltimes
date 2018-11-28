@@ -9,9 +9,11 @@ class PNav extends Component {
     return (
         <React.Fragment>
           <div className="stickynav">
-          <p className="title"><Link to='/'>
+          <Link to='/'>
           <img className="navLogo" src="https://i.imgur.com/MGcRkQn.png"/>
-          </Link></p>
+          </Link>
+          <p className="title">
+            Times Travel </p>
           <img className="icon" src="https://i.imgur.com/uWpKRox.png"/>
           </div>
          </React.Fragment>
