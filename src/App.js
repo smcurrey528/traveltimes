@@ -8,6 +8,7 @@ import Convert from './Convert';
 import TripTips from './TripTips';
 import CommTips from './CommTips';
 import RelTips from './RelTips';
+import FoodNDrink from './FoodNDrink';
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
              <Route exact path="/tips-food" component={TripTips} />
              <Route exact path="/commtips" component={CommTips} />
               <Route exact path="/reltips" component={RelTips} />
+              <Route exact path="/food" component={FoodNDrink} />
           </Switch>
          </React.Fragment>
       </Router>
