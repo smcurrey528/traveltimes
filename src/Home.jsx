@@ -62,26 +62,16 @@ class Home extends Component {
           <div className="saved"> SAVED LOCATIONS </div>
           <img className="dotSave" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHQSURBVGhD7dY/SFVhGMfxa5H9G0LLIjITQsS5pFFq1UFo0dkhInATtFFaAnVSLJ1ahQKl/DO5SoI4BaFEk5ANOqiDivZ9Lh14efm959zTGM8XPsO9vM+Bc8+55z0Vz/M8z/M8z/M8z6upS7iHu7hgX5TsMlpwp/qpfFfRipvVT//QfcxiH+d//cJb3EBRHZjDEbL5n3iNKyjqCZZxjGz+G17iImqqE7+RHSC2jYdI1Y1DqFnzFY1I9QKnULPmM+qRWxN2oQ4Q2oTddnF2JfJOIrMI1VPknURmGrnZraMGlQHE2e2k1irPEGdXS62N2cm2IdkW1KDyBWF2ucP/RJFJhDVDrUsZQrITqCHlO8Ls6aTWpawgrAtqXco7JDuAGlI2EHYbal3KR4TZQ0atS5lAslWoIWUGcfaIVWuVYYRdQ5lbsw/J+qGGYmd4hLgRqPUxe7LZRhv3Hmp9bAfXkawO81DDoTGobCdeg5oJvYLqFn5AzWTsR+xBYbbzfoANxAexh8Eb5L2u2Ga3hHjW2K2TOomsB1iHmt/Dc5TqMcZhO+kCRtGOWrPNbQq2+X2C/SfU7aSyH6oX9ppkryq2Pw2iAZ7neZ7neZ7neZ73/1ep/AEHu0qPbrdm0gAAAABJRU5ErkJggg=="/>
 
-      <div className="montreal">
-         <div className="graybox">
-       <p className="textName"> Montreal </p>
-         </div>
-        </div>
-      <div className="hong">
-          <div className="graybox">
-         <p className="textName"> Hong Kong </p>
-         </div>
-         </div>
-      <div className="paris">
-        <div className="graybox">
-         <p className="textName"> Paris  </p>
-        </div>
-         </div>
-      <div className="cartagena">
-       <div className="graybox">
-      <p className="textName"> Cartagena </p>
-      </div>
-      </div>
+
+         <img  className="montreal" src="https://i.imgur.com/vLI96Sy.png"/>
+
+
+      <img className="hong" src="https://i.imgur.com/e2IyIUw.png"/>
+
+      <img className="paris" src="https://i.imgur.com/33DFq8u.png"/>
+
+      <img className="cartagena" src="https://i.imgur.com/Zuvj6u1.png"/>
+
       <hr/>
       </div>
     </div>

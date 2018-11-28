@@ -9,9 +9,9 @@ class Nav extends Component {
     return (
         <React.Fragment>
           <div className="stickynav">
-          <p className="title"><Link to='/'>
+          <p className="times">
             Times Travel
-          </Link></p>
+          </p>
           <img className="icon" src="https://i.imgur.com/uWpKRox.png"/>
           </div>
          </React.Fragment>

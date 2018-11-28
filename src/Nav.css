@@ -10,16 +10,15 @@
   background-color: #7CC2CC;
 }
 
-.title > a {
+.times{
   text-align: center;
-  margin-left: 135px;
   padding-top: -10%;
   margin-top: 0;
   color: white !important;
   text-decoration: none !important;
   font-size: 160% !important;
   position: absolute;
-  left: -12%;
+  left: 31%;
   top: 30%;
 
 }
